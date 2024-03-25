@@ -1,8 +1,9 @@
-# React + Vite
+# React Teaching
+  I will cover the core concepts of React from the begining. The only prerequisite is to have basic knowledge on JavaScript.
+## Step 1:
+1. Create a react project using: npm create vite@latest name-of-your-project -- --template react
+2. Then go to that project path and install npm packages: npm i
+3. After that open that project on VsCode
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Step 2:
+1. Run the project using terminal: npm run dev 
