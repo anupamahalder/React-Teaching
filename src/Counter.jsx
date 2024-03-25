@@ -2,7 +2,7 @@ import { useState } from "react"
 
 export default function Counter(){
     // declare a use state 
-    let [count, setCount] = useState(5); // here count is a variable and setCount is a function 
+    let [count, setCount] = useState(5); //here count is a variable and setCount is a function 
     const myStyle = {
         border: '2px solid red',
         margin: '10px',
@@ -30,6 +30,8 @@ export default function Counter(){
             <p style={myStyle}
             onClick={()=>setCount(count-1)}
             >Minus</p>
+
+            {/* <p>Count2: {count}</p> */}
         </div>
     )
 }
